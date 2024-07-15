@@ -1,0 +1,15 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar'; // Ensure correct path
+ // Ensure correct path
+import NewsBoard from './Components/NewsBoard';
+
+const App = () => {
+  return (
+    <Navbar />
+    <NewsBoard/>
+   
+  );
+}
+
+export default App;
